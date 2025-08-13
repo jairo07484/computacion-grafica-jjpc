@@ -1,0 +1,75 @@
+/* Estructura general de la página */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Sidebar y Contenedor de contenido */
+  grid-template-rows: auto 1fr auto; /* Header, contenido principal y Footer */
+  grid-template-areas: 
+    "logo header header"
+    "side content content"
+    "footer footer footer";
+  height: 100vh;
+}
+
+/* Logo */
+.logo {
+  grid-area: logo;
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* Header */
+.header {
+  grid-area: header;
+  background-color: #b8b8b8;
+  padding: 10px;
+  text-align: right;
+}
+
+/* Sidebar */
+.sidebar {
+  grid-area: side;
+  background-color: gray;
+  padding: 20px;
+}
+
+/* Contenido Principal */
+.content {
+  grid-area: content;
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Footer */
+.footer {
+  grid-area: footer;
+  background-color: orange;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para los 3 footers */
+.footer-1, .footer-2, .footer-3 {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Buscador */
+.search {
+  padding: 5px;
+  margin-top: 5px;
+  width: 200px;
+}
