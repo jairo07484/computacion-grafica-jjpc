@@ -1,0 +1,7 @@
+.cont{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size:x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
