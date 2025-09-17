@@ -1,0 +1,6 @@
+.content {
+  flex-grow: 1;  /* El contenido ocupa el espacio restante */
+  background-color: #a8d08d;  /* Verde claro */
+  padding: 20px;
+  height: 100%;
+}
