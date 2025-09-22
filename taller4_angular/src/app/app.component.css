@@ -1,0 +1,68 @@
+/* Estilos generales */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Títulos */
+h2 {
+  color: #ff4900;
+  font-size: 2rem;
+}
+
+/* Párrafos */
+p {
+  font-size: 1rem;
+  color: #0093FF;
+}
+
+p.alt {
+  font-size: 12px;
+  color: #c500ff;
+  font-family: 'Nerko One', cursive;
+}
+
+/* Links */
+a {
+  color: #001bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4CAF50;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #bec1c3;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #045795;
+  color: white;
+}

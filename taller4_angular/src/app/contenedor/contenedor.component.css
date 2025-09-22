@@ -1,0 +1,27 @@
+.contenedor {
+    background-color: blue;
+    padding: 20px;
+    gap: 20PX;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    margin: 20px;
+}
+
+.content {
+  background-color: lightgreen;
+  padding: 20px;
+  margin-top: 10px;
+  width: 65%;
+}
+
+.sidebar {
+  background-color: #d3d3d3;
+  width: 30%;
+  padding: 10px;
+  margin-top: 10px;
+  height: 500px;
+}

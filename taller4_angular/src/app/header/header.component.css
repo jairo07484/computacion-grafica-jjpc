@@ -1,0 +1,16 @@
+.header {
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  background-color: orange;
+  padding: 10px;
+}
+
+.buscador {
+  background-color: lightgrey;
+  padding: 10px;
+}

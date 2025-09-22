@@ -1,0 +1,13 @@
+.footer {
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer-item {
+  background-color: #bbb;
+  padding: 10px;
+  flex-grow: 1;
+  margin: 0 5px;
+}
